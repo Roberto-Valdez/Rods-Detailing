@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 .overlayMainText {
   font-family: "Permanent Marker", cursive;
@@ -11,4 +12,8 @@
 
 .servicesBox {
   height: 580px;
+}
+
+.servicesHeadings {
+  font-family: "Staatliches", cursive;
 }
