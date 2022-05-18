@@ -29,14 +29,6 @@
         class="absolute top-64 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col"
       >
         <p class="servicesHeadings text-center text-white text-2xl">
-          317 E Matilda St
-          <br />
-          Dalton, GA
-        </p>
-
-        <div id="map" class="h-96 w-64"></div>
-
-        <p class="servicesHeadings mt-4 text-center text-white text-2xl">
           Social Media
         </p>
 
@@ -48,29 +40,6 @@
             <img src="./Graphics/snapIcon.svg" class="h-12" />
           </a>
         </div>
-
-        <script>
-          function initMap() {
-            var options = {
-              zoom: 16,
-              center: { lat: 34.78212, lng: -84.962442 },
-            };
-
-            var map = new google.maps.Map(
-              document.getElementById("map"),
-              options
-            );
-
-            var marker = new google.maps.Marker({
-              position: { lat: 34.78212, lng: -84.962442 },
-              map: map,
-            });
-          }
-        </script>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAenygGtKAHLq3CPB2xWj6gKCGUkcGEVFI&callback=initMap&v=weekly"
-          async
-        ></script>
       </div>
     </div>
   </body>
